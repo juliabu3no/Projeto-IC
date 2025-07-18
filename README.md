@@ -1,4 +1,4 @@
-# 📍 **Localização de Unidades para Atendimento Soroterápico no Estado de São Paulo** 
+# 📍 Localização de Unidades para Atendimento Soroterápico no Estado de São Paulo
 
 ## 📘 Sobre o Projeto
 
@@ -15,13 +15,17 @@ O projeto tem como foco a otimização da resposta do sistema de saúde público
 
 ## 📊 Dados Utilizados
 
-Os dados utilizados foram extraídos do **Sistema de Informação de Agravos de Notificação (SINAN)** por meio da plataforma **DATASUS**, e referem-se aos registros de acidentes com animais peçonhentos no estado de São Paulo entre os anos de **2007 e 2023**.
-
-📂 A base tratada pode ser acessada em:  
-[➡️ Google Drive - Dados SINAN](https://drive.google.com/drive/folders/1hA8wW6yj9IABLPeNaE56vwUecN_v8xxz?usp=sharing)
-
+Os dados utilizados foram extraídos do **Sistema de Informação de Agravos de Notificação (SINAN)** por meio da plataforma **DATASUS**, e referem-se aos registros de acidentes com animais peçonhentos no estado de São Paulo entre os anos de **2007 e 2023**.  
 Informações sobre a localização de postos com soro foram obtidas a partir do CVE/CIEVS:  
 🔗 https://cievs.saude.sp.gov.br/soro/
+
+## 📂 Acesso aos Dados
+
+Os arquivos de dados utilizados neste projeto estão disponíveis no Google Drive:
+
+🔗 [Clique aqui para acessar a pasta](https://drive.google.com/drive/folders/1hA8wW6yj9IABLPeNaE56vwUecN_v8xxz?usp=sharing)
+
+> ⚠️ **Observação:** arquivos CSV com mais de 100 MB não são versionados diretamente neste repositório devido às limitações do GitHub.
 
 ## 🧑‍💻 Equipe do Projeto
 
@@ -41,7 +45,27 @@ Informações sobre a localização de postos com soro foram obtidas a partir do
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python (Pandas, Plotly, Matplotlib, Shiny, NetworkX)
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Shiny, GeoPandas, NetworkX)
 - OpenRouteService API
 - GeoJSON + dados do OpenStreetMap
 
+## 📦 Como Executar o Projeto
+
+Siga os passos abaixo para instalar as dependências e executar os notebooks localmente:
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+# 2. (Opcional) Crie um ambiente virtual
+python -m venv venv
+
+# Ative o ambiente virtual:
+# No Windows:
+venv\Scripts\activate
+# No macOS/Linux:
+source venv/bin/activate
+
+# 3. Instale as dependências
+pip install -r requirements.txt
