@@ -1,0 +1,26 @@
+# Ambientes virtuais
+venv/
+ENV/
+env/
+.venv/
+
+# Arquivos temporários de notebooks
+.ipynb_checkpoints/
+
+# Dados grandes que não devem ser versionados
+Dados/
+!Dados/.gitkeep  # mantém a pasta visível no GitHub
+
+# Arquivos gerados
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+*.code-workspace
