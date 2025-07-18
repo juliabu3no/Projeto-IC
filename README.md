@@ -55,7 +55,7 @@ Siga os passos abaixo para instalar as dependências e executar os notebooks loc
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/juliabu3no/Projeto-IC.git
 cd seu-repositorio
 
 # 2. (Opcional) Crie um ambiente virtual
