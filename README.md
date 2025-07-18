@@ -56,7 +56,7 @@ Siga os passos abaixo para instalar as dependências e executar os notebooks loc
 ```bash
 # 1. Clone o repositório
 git clone https://github.com/juliabu3no/Projeto-IC.git
-cd seu-repositorio
+cd Projeto-IC
 
 # 2. (Opcional) Crie um ambiente virtual
 python -m venv venv
