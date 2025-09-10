@@ -6,3 +6,6 @@ plotly
 gdown
 shiny
 geopandas
+shapely
+scipy
+folium

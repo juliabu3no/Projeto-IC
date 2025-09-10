@@ -24,3 +24,5 @@ Thumbs.db
 # IDEs
 .vscode/
 *.code-workspace
+
+.env
